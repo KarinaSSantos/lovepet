@@ -1,0 +1,29 @@
+{
+  "name": "lovepet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaSSantos/lovepet.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "author": "Karina Santos",
+  "license": "ISC",
+  "homepage": "https://github.com/KarinaSSantos/lovepet",
+  "devDependencies": {
+    "async": "^3.2.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
