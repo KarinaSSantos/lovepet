@@ -1,0 +1,35 @@
+.AboutUs {
+    margin: 7% 0;
+    .AboutUs_Content {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+        .AboutUs_ContainerLeft {
+            width: 50%;
+            padding: 2%;
+            img{
+                width: 90%;
+
+            }
+        }
+        .AboutUs_ContainerRight {
+            margin: 2%;
+            width: 50%;
+            .AboutUs_Title{
+                span {
+                    color: #979797;
+                    font-size: 22px;
+                    margin-bottom: 8px;
+                    
+                }
+                h2 {
+                    font-size: 48px;
+                    color: #fb8c00;
+                    margin-bottom: 5%;
+                }
+            }
+        }
+
+    }
+}

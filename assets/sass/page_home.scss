@@ -11,15 +11,24 @@
             .Title {
                 margin: 2% 0;
                 h1{
-                    font-size:42px;
+                    font-size: 52px;
+                    font-weight: 600;
+                    color: #fff;
                 }
             }
             p{
-
+                color: #fff;
             }
             .Banner_Button{
                 display: flex;
                 margin: 5% 0;
+                button {
+                    border: none;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                background-color: #FB8C00;
+                    color: #fff;
+                }
             }
 
         }
