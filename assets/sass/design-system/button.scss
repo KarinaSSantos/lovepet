@@ -1,0 +1,20 @@
+
+.Primary_Button {
+    button{
+
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+    }
+    &.Solid{
+        button{
+            background:$primary_color ;
+            border:none;
+        }
+    } 
+    &.Outline{
+        button{
+            border: 1px $primary_color;
+        }
+    }
+}

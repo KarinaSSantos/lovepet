@@ -1,50 +1,49 @@
-.AbandonPets{
+.AbandonPets {
     display: flex;
     background-image: url(http://localhost/lovepet/dist/img/abandon-banner3.jpg);
     background-size: cover;
-    height: 500px;
+    height: 90vh;
     background-position: center center;
     background-color: #8f8f8f42;
     background-blend-mode: multiply;
-    justify-content: center;
-    .AbandonPets_Content{
+    // justify-content: center;
+    .AbandonPets_Content {
         margin: 5% 0;
         padding: 0 3%;
-        width: 85%;
-        .AbandonPets_Container{
-            color:#fff;
-            .AboutUs_Title{
-                span{
-
+        width: 70%;
+        .AbandonPets_Container {
+            color: #fff;
+            .AbandonPets_Title {
+                span {
                     font-size: 22px;
                     margin-bottom: 8px;
                 }
-                h2{
-                    font-size: 42px;
-                    strong{
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    margin-top: 1%;
+                    strong {
                         color: #ffd800;
-                        font-size: 55px;
-                        span{
-                            font-size: 55px;
+                        font-size: 42px;
+                        span {
+                            font-size: 42px;
                             text-decoration-line: underline;
                         }
-
                     }
                 }
             }
-            .Banner_Button{
+            .Primary_Button.Solid {
                 display: flex;
                 margin: 3% 0;
                 button {
                     border: none;
                     padding: 12px 22px;
                     border-radius: 4px;
-                background-color: #FB8C00;
+                    background-color: #fb8c00;
                     color: #fff;
                     font-size: 18px;
                 }
             }
-
         }
     }
 }
